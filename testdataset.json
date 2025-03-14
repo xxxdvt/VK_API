@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "60d72b3f9a1d1a3f2c8b4567",
+    "title": "Смартфон XYZ Pro 2023",
+    "image_url": "https://example.com/images/smartphone_xyz_pro.png",
+    "price": 45999.99,
+    "discount": 10,
+    "referral_link": "https://example.com/referral/smartphone_xyz_pro"
+  },
+  {
+    "_id": "60d72b3f9a1d1a3f2c8b4568",
+    "title": "Ноутбук ABC 15.6\"",
+    "image_url": "https://example.com/images/laptop_abc.png",
+    "price": 79999.00,
+    "discount": 20,
+    "referral_link": "https://example.com/referral/laptop_abc"
+  },
+  {
+    "_id": "60d72b3f9a1d1a3f2c8b4569",
+    "title": "Смарт-часы 360X",
+    "image_url": "https://example.com/images/smartwatch_360x.png",
+    "price": 12999.50,
+    "discount": 15,
+    "referral_link": "https://example.com/referral/smartwatch_360x"
+  },
+  {
+    "_id": "60d72b3f9a1d1a3f2c8b4570",
+    "title": "Наушники JBL Over-Ear",
+    "image_url": "https://example.com/images/headphones_jbl.png",
+    "price": 6999.99,
+    "discount": 25,
+    "referral_link": "https://example.com/referral/headphones_jbl"
+  },
+  {
+    "_id": "60d72b3f9a1d1a3f2c8b4571",
+    "title": "Фитнес-трекер FitBand 3.0",
+    "image_url": "https://example.com/images/fitness_tracker_fitband.png",
+    "price": 3499.00,
+    "discount": 5,
+    "referral_link": "https://example.com/referral/fitness_tracker_fitband"
+  }
+]
