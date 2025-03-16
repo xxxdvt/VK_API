@@ -15,3 +15,4 @@ def download_photo(photo_url):
 def delete_photo():
     os.remove('photo.jpg')
     print("deleted")
+

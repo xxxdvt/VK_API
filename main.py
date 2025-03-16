@@ -6,9 +6,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 from db import create_dataset
 
 
-def run():
-    data = create_dataset()
-
+def run(data):
     vk_api_instance, upload_api = authenticate_vk()
 
     for item in data:
@@ -24,8 +22,9 @@ def run():
 
 
 def main():
+    data = create_dataset()
     scheduler = BlockingScheduler()
-    scheduler.add_job(run, 'interval', minutes=1)  # 'run' is run every 1 minute
+    scheduler.add_job(run, 'interval', args=[data], minutes=1)  # 'run' is run every 1 minute
     scheduler.start()
 
 
